@@ -39,6 +39,8 @@ document.querySelectorAll(".drum")[i].addEventListener("click",function(){
             snare.play();
             break;
 
+            default:console.log(buttonInnerHTML);
+
     }  
 
 })
